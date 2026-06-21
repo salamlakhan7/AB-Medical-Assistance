@@ -231,7 +231,7 @@ frontend/dist/
 
 ## Current Readiness Estimate
 
-- Demo/FYP readiness: high
+- Portfolio readiness: high
 - Public GitHub readability: good after Phase 12A docs
 - Production deployment readiness: moderate
 - Remaining production work: deployment scripts, media storage, CI, monitoring, and full browser test coverage
