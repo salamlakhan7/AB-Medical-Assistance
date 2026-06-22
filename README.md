@@ -1,4 +1,4 @@
-# 🏥 AB Medical Assistance
+#  AB Medical Assistance
 
 <div align="center">
 
@@ -6,42 +6,42 @@
 ![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
 ![JWT](https://img.shields.io/badge/Auth-SimpleJWT-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Pending-lightgrey?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
 
 **A full-stack medical assistance and pharmacy workflow prototype — featuring product catalog management, order tracking, customer feedback, owner analytics, and a rule-based AI medicine recommendation assistant.**
 
 [Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [Usage](#-usage) • [API Reference](#-main-api-groups) • [Deployment](#-deployment-notes)
 
-> ⚠️ **Disclaimer:** This project is intended for portfolio demonstration and local development only. It is not a medical device and must not be used as a substitute for professional medical advice.
+>  **Disclaimer:** This project is intended for portfolio demonstration and local development only. It is not a medical device and must not be used as a substitute for professional medical advice.
 
 </div>
 
 ---
 
-## 🌟 Features
+##  Features
 
 ### For Customers
-- 🔐 **Secure Authentication** - Registration, login, JWT-based auth, and logout
-- 🛍️ **Product Catalog** - Browse products with categories, stock status, and images
-- 🛒 **Cart & Checkout** - Stock-validated cart with seamless checkout experience
-- 📦 **Order Tracking** - Full order history with detailed order views
-- 🤖 **AI Recommendation Assistant** - Rule-based medicine suggestions from the live product database
-- ⭐ **Product Feedback** - Leave reviews after confirmed purchases
+-  **Secure Authentication** - Registration, login, JWT-based auth, and logout
+-  **Product Catalog** - Browse products with categories, stock status, and images
+-  **Cart & Checkout** - Stock-validated cart with seamless checkout experience
+-  **Order Tracking** - Full order history with detailed order views
+-  **AI Recommendation Assistant** - Rule-based medicine suggestions from the live product database
+-  **Product Feedback** - Leave reviews after confirmed purchases
 
 ### For Owners & Admins
-- 🏪 **Product Management** - Create, edit, soft delete, and manage inventory with image uploads
-- 📋 **Order Management** - View all orders and update statuses in real time
-- 📊 **Analytics Dashboard** - Business insights and performance tracking
-- 🧠 **AI Analytics** - Monitor recommendation patterns and usage
+-  **Product Management** - Create, edit, soft delete, and manage inventory with image uploads
+-  **Order Management** - View all orders and update statuses in real time
+-  **Analytics Dashboard** - Business insights and performance tracking
+-  **AI Analytics** - Monitor recommendation patterns and usage
 
 ### Platform Features
-- 🔑 **Role-Based Access** - Distinct roles for customers, owners, and admins
-- 🚨 **Emergency Detection** - AI blocks product recommendations on emergency symptoms
-- 🐘 **PostgreSQL-Ready** - SQLite for development, PostgreSQL for production via environment variables
+-  **Role-Based Access** - Distinct roles for customers, owners, and admins
+-  **Emergency Detection** - AI blocks product recommendations on emergency symptoms
+-  **PostgreSQL-Ready** - SQLite for development, PostgreSQL for production via environment variables
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Django** - High-level Python web framework
@@ -59,7 +59,7 @@
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -132,7 +132,7 @@ Frontend dev server: `http://127.0.0.1:5173/`
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### For Customers
 
@@ -151,7 +151,7 @@ Frontend dev server: `http://127.0.0.1:5173/`
 
 ---
 
-## 🗺️ Main Routes
+##  Main Routes
 
 ```
 /                  Public landing page
@@ -167,7 +167,7 @@ Frontend dev server: `http://127.0.0.1:5173/`
 
 ---
 
-## 📡 Main API Groups
+##  Main API Groups
 
 ```
 /api/auth/
@@ -182,7 +182,7 @@ Frontend dev server: `http://127.0.0.1:5173/`
 
 ---
 
-## 🔧 Environment Variables
+##  Environment Variables
 
 | Variable | Description |
 |---|---|
@@ -229,7 +229,7 @@ AB-Medical-Assistance/
 
 ---
 
-## 🔄 Recommendation Workflow
+##  Recommendation Workflow
 
 ```mermaid
 graph LR
@@ -247,7 +247,7 @@ If the diagram does not render, view this file on GitHub or a Markdown viewer.
 
 ---
 
-## 🖼️ Media Handling
+##  Media Handling
 
 Product images are uploaded through the product API and stored under:
 
@@ -259,7 +259,7 @@ The local media directory is excluded from Git. For production, use persistent m
 
 ---
 
-## 🚢 Deployment Notes
+##  Deployment Notes
 
 Before deploying to production:
 
@@ -276,7 +276,7 @@ Before deploying to production:
 
 ---
 
-## ✅ Verification
+##  Verification
 
 **Backend:**
 ```powershell
@@ -314,13 +314,12 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📝 License
+##  License
 
-No license file has been added yet. Add a license before public release if reuse permissions should be explicit.
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Email notifications for order updates
 - [ ] PDF prescription upload and parsing
