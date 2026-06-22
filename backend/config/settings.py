@@ -196,3 +196,8 @@ SECURE_HSTS_PRELOAD = env_bool("SECURE_HSTS_PRELOAD", False)
 #        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
 #    },
 #}
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
+    },
+}
