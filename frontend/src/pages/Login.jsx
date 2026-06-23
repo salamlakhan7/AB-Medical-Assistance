@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { LogIn, Stethoscope } from "lucide-react";
 import { storeAuth } from "../auth.js";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://ab-medical-assistance-production.up.railway.app/api";
 
 function Login() {
   const [formData, setFormData] = useState({ username: "", password: "" });
