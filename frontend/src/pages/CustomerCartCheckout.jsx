@@ -8,7 +8,7 @@ import EmptyCartState from "../components/customer/EmptyCartState.jsx";
 import OrderSummaryPanel from "../components/customer/OrderSummaryPanel.jsx";
 import { authFetch, getAuthHeaders } from "../auth.js";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://ab-medical-assistance-production.up.railway.app/api";
 
 const accentByCategory = {
   rehydration: "cyan",
