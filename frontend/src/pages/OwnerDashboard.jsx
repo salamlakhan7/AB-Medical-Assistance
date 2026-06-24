@@ -31,7 +31,7 @@ const navItems = [
   { label: "Feedback", icon: MessageSquareText }
 ];
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://ab-medical-assistance-production.up.railway.app/api";
 
 const emptyProductForm = {
   name: "",
