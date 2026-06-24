@@ -14,7 +14,7 @@ import RecommendationCard from "../components/customer/RecommendationCard.jsx";
 import RecommendationHistory from "../components/customer/RecommendationHistory.jsx";
 import { authFetch, getAuthHeaders } from "../auth.js";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL =import.meta.env.VITE_API_BASE_URL || "https://ab-medical-assistance-production.up.railway.app/api";
 
 const accentByCategory = {
   analgesic: "coral",
