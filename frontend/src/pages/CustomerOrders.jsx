@@ -13,7 +13,7 @@ import {
 import CustomerNav from "../components/customer/CustomerNav.jsx";
 import { authFetch, getAuthHeaders } from "../auth.js";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://ab-medical-assistance-production.up.railway.app/api";
 
 function formatStatus(status) {
   return status.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
